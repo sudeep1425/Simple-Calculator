@@ -1,0 +1,118 @@
+/* dark.css */
+
+/* Background and Root Container */
+body { 
+    background: #0a0e1a; 
+}
+
+#calc-root { 
+    background: linear-gradient(135deg, #0a0e1a 0%, #12152a 50%, #0a0e1a 100%); 
+}
+
+/* Glassmorphism Shell - Dark Version */
+.calc-shell { 
+    background: rgba(50, 90, 150, 0.1); 
+    border: 1px solid rgba(100, 150, 200, 0.2); 
+    box-shadow: 0 12px 48px rgba(0, 0, 0, 0.5), 
+                inset 0 1px 0 rgba(150, 180, 220, 0.1); 
+}
+
+/* Display Area */
+.display-wrap { 
+    background: rgba(0, 0, 0, 0.35); 
+    border: 1px solid rgba(100, 150, 200, 0.15); 
+}
+
+.display-expr { 
+    color: rgba(150, 180, 220, 0.5); 
+}
+
+.display-val { 
+    color: #e8f0ff; 
+}
+
+.display-val.error { 
+    color: #ff6b9d; 
+}
+
+/* Buttons: Standard Numbers */
+.btn-num { 
+    background: linear-gradient(135deg, rgba(70, 130, 180, 0.25), rgba(100, 150, 200, 0.2)); 
+    color: #e0e8ff; 
+    border: none; 
+    box-shadow: 0 4px 12px rgba(50, 110, 160, 0.3); 
+}
+
+.btn-num:hover { 
+    background: linear-gradient(135deg, rgba(100, 150, 200, 0.35), rgba(130, 170, 220, 0.3));
+    box-shadow: 0 6px 16px rgba(50, 110, 160, 0.4);
+}
+
+/* Buttons: Operators (+, -, ×, ÷) */
+.btn-op { 
+    background: linear-gradient(135deg, rgba(30, 180, 255, 0.35), rgba(60, 200, 255, 0.3)); 
+    color: #a8e6ff; 
+    border: none; 
+    box-shadow: 0 4px 12px rgba(30, 160, 255, 0.35); 
+}
+
+.btn-op:hover { 
+    background: linear-gradient(135deg, rgba(60, 200, 255, 0.45), rgba(90, 220, 255, 0.4)); 
+    box-shadow: 0 6px 16px rgba(30, 160, 255, 0.45);
+}
+
+/* Buttons: Clear (C) */
+.btn-clear { 
+    background: linear-gradient(135deg, rgba(240, 80, 100, 0.7), rgba(255, 100, 120, 0.65)); 
+    color: #fff; 
+    border: none; 
+    box-shadow: 0 4px 12px rgba(240, 80, 100, 0.45); 
+}
+
+.btn-clear:hover { 
+    background: linear-gradient(135deg, rgba(255, 100, 120, 0.8), rgba(255, 120, 140, 0.75)); 
+    box-shadow: 0 6px 16px rgba(240, 80, 100, 0.55);
+}
+
+/* Buttons: Equals (=) */
+.btn-eq { 
+    background: linear-gradient(135deg, rgba(40, 220, 180, 0.7), rgba(80, 240, 200, 0.65)); 
+    color: #0a0e1a; 
+    border: none; 
+    box-shadow: 0 4px 12px rgba(40, 220, 180, 0.45); 
+    font-weight: 700;
+}
+
+.btn-eq:hover { 
+    background: linear-gradient(135deg, rgba(80, 240, 200, 0.8), rgba(120, 255, 220, 0.75)); 
+    box-shadow: 0 6px 16px rgba(40, 220, 180, 0.55);
+}
+
+/* Buttons: Utility/Dark (DEL, %) */
+.btn-dark { 
+    background: rgba(50, 80, 130, 0.2); 
+    color: rgba(150, 180, 220, 0.85); 
+    border: none; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+}
+
+.btn-dark:hover { 
+    background: rgba(70, 100, 150, 0.3); 
+    box-shadow: 0 6px 14px rgba(50, 80, 130, 0.35);
+}
+
+/* Header and Theme Toggle */
+.calc-title { 
+    color: #7eb3ff; 
+    text-shadow: 0 2px 8px rgba(126, 179, 255, 0.2);
+}
+
+.theme-tog { 
+    border: 1px solid rgba(126, 179, 255, 0.4); 
+    color: #7eb3ff; 
+    background: rgba(126, 179, 255, 0.08);
+}
+
+.theme-tog:hover { 
+    background: rgba(126, 179, 255, 0.15); 
+}

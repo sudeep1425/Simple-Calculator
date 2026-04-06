@@ -1,0 +1,118 @@
+/* light.css */
+
+/* Background and Root Container */
+body { 
+    background: #f0f4ff; 
+}
+
+#calc-root { 
+    background: linear-gradient(135deg, #f0f4ff 0%, #e8ecff 50%, #f0f4ff 100%); 
+}
+
+/* Glassmorphism Shell - Light Version */
+.calc-shell { 
+    background: rgba(255, 255, 255, 0.65); 
+    border: 1px solid rgba(100, 150, 200, 0.2); 
+    box-shadow: 0 12px 48px rgba(0, 0, 0, 0.08), 
+                inset 0 1px 0 rgba(255, 255, 255, 0.8); 
+}
+
+/* Display Area */
+.display-wrap { 
+    background: rgba(255, 255, 255, 0.75); 
+    border: 1px solid rgba(100, 150, 200, 0.2); 
+}
+
+.display-expr { 
+    color: rgba(70, 100, 160, 0.6); 
+}
+
+.display-val { 
+    color: #0a1a3a; 
+}
+
+.display-val.error { 
+    color: #ff6b9d; 
+}
+
+/* Buttons: Standard Numbers */
+.btn-num { 
+    background: linear-gradient(135deg, rgba(176, 196, 255, 0.4), rgba(200, 220, 255, 0.35)); 
+    color: #1a2d4d; 
+    border: none;
+    box-shadow: 0 4px 12px rgba(130, 160, 220, 0.15); 
+}
+
+.btn-num:hover { 
+    background: linear-gradient(135deg, rgba(200, 220, 255, 0.55), rgba(220, 240, 255, 0.5)); 
+    box-shadow: 0 6px 16px rgba(130, 160, 220, 0.25);
+}
+
+/* Buttons: Operators */
+.btn-op { 
+    background: linear-gradient(135deg, rgba(100, 180, 255, 0.25), rgba(150, 210, 255, 0.2)); 
+    color: #0052a3; 
+    border: none;
+    box-shadow: 0 4px 12px rgba(100, 180, 255, 0.15);
+}
+
+.btn-op:hover { 
+    background: linear-gradient(135deg, rgba(150, 210, 255, 0.4), rgba(180, 230, 255, 0.35)); 
+    box-shadow: 0 6px 16px rgba(100, 180, 255, 0.25);
+}
+
+/* Buttons: Clear (C) */
+.btn-clear { 
+    background: linear-gradient(135deg, rgba(255, 100, 130, 0.75), rgba(255, 130, 160, 0.7)); 
+    color: #fff; 
+    border: none;
+    box-shadow: 0 4px 12px rgba(255, 80, 120, 0.2);
+}
+
+.btn-clear:hover {
+    background: linear-gradient(135deg, rgba(255, 130, 160, 0.85), rgba(255, 150, 180, 0.8));
+    box-shadow: 0 6px 16px rgba(255, 80, 120, 0.3);
+}
+
+/* Buttons: Equals (=) */
+.btn-eq { 
+    background: linear-gradient(135deg, rgba(60, 220, 180, 0.8), rgba(100, 240, 210, 0.75)); 
+    color: #0a2d3a; 
+    border: none;
+    box-shadow: 0 4px 12px rgba(60, 220, 180, 0.2);
+    font-weight: 700;
+}
+
+.btn-eq:hover { 
+    background: linear-gradient(135deg, rgba(100, 240, 210, 0.9), rgba(140, 255, 230, 0.85)); 
+    box-shadow: 0 6px 16px rgba(60, 220, 180, 0.3);
+}
+
+/* Buttons: Utility (DEL/%) */
+.btn-dark { 
+    background: rgba(150, 170, 220, 0.15); 
+    color: #3d4d7d; 
+    border: none;
+    box-shadow: 0 4px 12px rgba(100, 130, 200, 0.1);
+}
+
+.btn-dark:hover {
+    background: rgba(150, 170, 220, 0.25);
+    box-shadow: 0 6px 14px rgba(100, 130, 200, 0.15);
+}
+
+/* Header Elements */
+.calc-title { 
+    color: #4a7cff; 
+    text-shadow: 0 2px 4px rgba(74, 124, 255, 0.08);
+}
+
+.theme-tog { 
+    border: 1px solid rgba(74, 124, 255, 0.4); 
+    color: #4a7cff; 
+    background: rgba(74, 124, 255, 0.08);
+}
+
+.theme-tog:hover {
+    background: rgba(74, 124, 255, 0.15);
+}

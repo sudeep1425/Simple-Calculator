@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Simple Calculator</title>
+
+  <!-- Base layout styles -->
+  <link rel="stylesheet" href="./styles/base.css">
+  <!-- Load LIGHT theme by default -->
+  <link rel="stylesheet" id="theme-link" href="./styles/light.css">
+</head>
+<body>
+<div id="calc-root">
+  <canvas id="particles"></canvas>
+  <div class="calc-shell" id="calcShell">
+    <div class="header-row">
+      <span class="calc-title">Calculator</span>
+      <button class="theme-tog" id="themeBtn" title="Toggle theme">🌙</button>
+    </div>
+    <div class="display-wrap">
+      <div class="display-expr" id="expr"></div>
+      <div class="display-val" id="dispVal">0</div>
+    </div>
+    <div class="btn-grid">
+      <button class="btn btn-clear" data-val="C">C</button>
+      <button class="btn btn-dark btn-del" data-val="DEL">⌫</button>
+      <button class="btn btn-dark" data-val="%">%</button>
+      <button class="btn btn-op" data-val="/">÷</button>
+
+      <button class="btn btn-num" data-val="7">7</button>
+      <button class="btn btn-num" data-val="8">8</button>
+      <button class="btn btn-num" data-val="9">9</button>
+      <button class="btn btn-op" data-val="*">×</button>
+
+      <button class="btn btn-num" data-val="4">4</button>
+      <button class="btn btn-num" data-val="5">5</button>
+      <button class="btn btn-num" data-val="6">6</button>
+      <button class="btn btn-op" data-val="-">−</button>
+
+      <button class="btn btn-num" data-val="1">1</button>
+      <button class="btn btn-num" data-val="2">2</button>
+      <button class="btn btn-num" data-val="3">3</button>
+      <button class="btn btn-op" data-val="+">+</button>
+
+      <button class="btn btn-num btn-zero" data-val="0">0</button>
+      <button class="btn btn-num" data-val=".">.</button>
+      <button class="btn btn-eq" data-val="=">=</button>
+    </div>
+  </div>
+</div>
+<script src="./scripts/script.js"></script>
+</body>
+</html>
