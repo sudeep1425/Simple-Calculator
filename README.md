@@ -43,13 +43,5 @@ Simple-Calculator/
 1. Download or clone the repository
 2. Open `index.html` in your browser
 
-## Preview
-
-(Add screenshot here later if you want)
-
-##  Author
-
-* Sudeep
-
 ---
  If you like this project, consider giving it a star!
